@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>FrontPage</title>
+</head>
+
+<body class="bg-[#32354E] px-10">
+    <header>
+        <nav class="lg:px-16 px-4 text-white flex flex-wrap items-center py-4 ">
+            <div class="flex-1 flex justify-between items-center">
+                <a href="#" class="text-5xl">
+                    One<span>Vit</span>
+                    </Link>
+            </div>
+
+            <label for="menu-toggle" class="pointer-cursor md:hidden block">
+                <svg class="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                    viewBox="0 0 20 20">
+                    <title>menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                </svg>
+            </label>
+            <input class="hidden" type="checkbox" id="menu-toggle" />
+
+            <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
+                <nav>
+                    <ul class="md:flex items-center justify-between text-base text-white pt-4 md:pt-0">
+                        <li>
+                            <a class="md:p-4 py-3 px-0 block" href="#">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a class="md:p-4 py-3 px-0 block" href="#">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a class="md:p-4 py-3 px-0 block" href="#">
+                                Benefit
+                            </a>
+                        </li>
+                        <li>
+                            <a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#">
+                                Buy
+                            </a>
+                        </li>
+                        <li>
+                            <a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#">
+                                Nuitrients
+                            </a>
+                        </li>
+                        <li>
+                            <a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#">
+                                Faq
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+
+
+        <!-- banner part  -->
+        <section class="mt-14">
+            <div class="flex items-center justify-around">
+                <div>
+                    <h2 class="text-white text-5xl mb-2">One<span class="font-bold">Vite</span></h2>
+                    <h2 class="text-[#E76A3E] text-3xl mb-2">complete</h2>
+                    <h2 class="text-2xl text-white font-bold mb-2">Your daily multivitamin</h2>
+                    <p class="text-xl font-medium text-white mb-2">One daily multivitamin to complete your health and
+                        wellbeing.</p>
+                        <button class="bg-[#E76A3E] text-white px-6 py-1 rounded">Buy now </button>
+                </div>
+                <div class="">
+                   <img class="w-[20rem] h-[25rem]" src="https://i.ibb.co/2ShhjD1/4.png" alt="image">
+                </div>
+            </div>
+        </section>
+
+
+    </header>
+
+    <script>
+        const menuToggle = document.getElementById("menu-toggle");
+        const menu = document.getElementById("menu");
+
+        menuToggle.addEventListener("change", function () {
+            if (menuToggle.checked) {
+                menu.style.display = "block";
+            } else {
+                menu.style.display = "none";
+            }
+        });
+    </script>
+</body>
+
+</html>
