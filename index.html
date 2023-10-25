@@ -14,7 +14,7 @@
 
 <body class="bg-[#32354E]">
 
-    <header class="relative min-h-screen  bg-contain bg-no-repeat  obeject-fit-cover"
+    <header class="relative min-h-screen bg-cover  md:bg-contain bg-no-repeat  obeject-fit-cover"
         style="background-image: url('./image/header1.png');">
         <div class="max-w-4xl w-full mx-auto">
             <nav class="text-white flex flex-wrap items-center py-4  bg-cover bg-no-repeat 
@@ -123,7 +123,7 @@
                                     class="border border-2 rounded-full px-2 py-1 border-[#E76A3E]">V</span> Made in Uk
                             </p>
                         </div>
-                        <button class="bg-[#E76A3E] text-white font-medium px-12 py-2 rounded">Buy now</button>
+                        <button class="bg-[#E76A3E] text-white font-medium px-12 py-2 rounded">Buy now <i class="fa-solid fa-chevron-right"></i></button>
                     </div>
                     <div class="bg-[#EEB190] px-5 w-[280px] h-[219px] pt-5 rounded-full">
                         <img src="./image/bgsmall.png" alt="" class="object-cover m-auto w-[140px] h-[183px]">
@@ -242,7 +242,7 @@
                             </div>
                         </div>
                         <div
-                            class="bg-[#5D5468] text-white w-[410px] h-[140px] w-full rounded-xl flex items-center jsutify-center px-10">
+                            class="bg-[#5D5468] text-white w-[410px] h-[140px] w-full rounded-xl flex items-center justify-center px-10 mx-auto">
                             <div class="relative">
                                 <i
                                     class="fa-solid fa-quote-left absolute -bottom-14 right-0 text-6xl text-[#E76A3E]"></i>
@@ -266,27 +266,7 @@
 
 
             <!-- multipack -->
-            <!-- <section class="mt-32 max-w-5xl mx-auto">
-                <hr class="border border-[#E76A3E] border-4 mb-20">
-                <div class="flex items-center gap-8 justify-center ">
-
-                    <div>
-                        <img src="./image/multipack.png" alt="">
-                    </div>
-                    <div class="ml-28">
-                        <p class="text-[#E76A3E] text-xl mb-4">Multivitamin</p>
-                        <h2 class="text-4xl text-white mb-4">Available in different sizes.</h2>
-                        <p class="text-white mb-4 text-xl">We have our multivitamins in various sizes from 30, 60 to 100
-                            tablets per bottle. Choose whichever suits you!</p>
-                        <p class="flex items-center mb-4 gap-4 text-white">Exclusively available at <span><img
-                                    src="./image/logopharmecy.png" alt=""></span></p>
-                        <button class="px-10 py-2 bg-[#E76A3E] text-white text-xl rounded">Buy now <i
-                                class="fa-solid fa-chevron-right"></i> </button>
-                    </div>
-
-                </div>
-                <hr class="border border-[#E76A3E] border-4 mt-20">
-            </section> -->
+            
 
 
             <!-- responsive also -->
@@ -300,7 +280,7 @@
                         <p class="text-[#E76A3E] text-xl mb-4">Multivitamin</p>
                         <h2 class="text-3xl md:text-5xl text-white mb-4">Available in different sizes.</h2>
                         <p class="text-white mb-4 text-xl md:text-base">We have our multivitamins in various sizes from 30, 60 to 100 tablets per bottle. Choose whichever suits you!</p>
-                        <p class="flex items-center justify-center mb-4 gap-4 text-white">Exclusively available at <span><img src="./image/logopharmecy.png" alt=""></span></p>
+                        <p class="flex items-center justify-center md:justify-start mb-4 gap-4 text-white">Exclusively available at <span><img src="./image/logopharmecy.png" alt=""></span></p>
                         <button class="px-10 py-2 bg-[#E76A3E] text-white text-xl rounded">Buy now <i class="fa-solid fa-chevron-right"></i></button>
                     </div>
                 </div>
@@ -324,25 +304,6 @@
 
             <!-- neutirtiens -->
 
-            <!-- <section class="mt-28 max-w-6xl mx-auto">
-                <div class="md:flex justify-center items-center text-white gap-10">
-                    <div class="w-4/6">
-                        <h2 class="text-4xl font-bold mb-4">27 Nutrients Per Tablet</h2>
-                        <p class="mb-5">The OneVit Complete formula consists of 27 carefully selected micronutrients to
-                            form a daily multivitamin that fulfills the body’s demands to function at its best. Each
-                            nutrient quantity is established from expert insight in accordance with how easily they can
-                            be obtained from a healthy diet.</p>
-                        <p>The daily dose is well within the safe upper limit recommended for each nutrient, to ensure
-                            safety while offering optimal nutrient support. The unique, elliptical-shaped OneVit
-                            Complete multivitamin tablets are formulated with high-quality ingredients to enable rapid
-                            absorption and maximize bioavailability.</p>
-                    </div>
-
-                    <div class="md:ml-5 bg-[#EA7148] w-48 h-48 p-5 rounded-full flex items-center justify-center">
-                        <img src="./image/bgsmall.png" alt="" class="object-cover w-32 h-40">
-                    </div>
-                </div>
-            </section> -->
 
 
             <!-- responssive also -->
@@ -369,13 +330,13 @@
 
 
 <!-- table -->
-            <section class="mt-28">
+            <section class="mt-28 px-5 md:px-0">
                 
             <h2 class="text-white text-4xl mb-5 text-center mb-10">Nutrients</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8  overflow-x-auto bg-[#5D5468] px-12 py-6 max-w-5xl mx-auto relative shadow-md sm:rounded-lg">
+            <div
+                class="hidden md:grid grid-cols-1 md:grid-cols-2 gap-8  overflow-x-auto bg-[#5D5468] px-12 py-6 max-w-5xl mx-auto relative shadow-md sm:rounded-lg">
                 <table class="w-full text-sm text-left text-gray-300 dark:text-gray-200">
-                    <thead
-                        class=" dark:bg-gray-800 border-b-4 border-[#E76A3E] text-lg text-gray-200 uppercase ">
+                    <thead class=" dark:bg-gray-800 border-b-4 border-[#E76A3E] text-lg text-gray-200 uppercase ">
                         <tr>
                             <th scope="col" class="py-3 px-6">
 
@@ -390,39 +351,197 @@
                     </thead>
                     <tbody>
                         <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
-                            <th scope="row"
-                                class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
                                 Vitamin A
-                            </th>                          
-                            <th scope="row"
-                                class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
                                 Apple
-                            </th>                          
-                            <th scope="row"
-                                class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
-                                Apple 
-                            </th>                          
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
                         </tr>
                         <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
-                            <th scope="row"
-                                class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
                                 Vitamin A
-                            </th>                          
-                            <th scope="row"
-                                class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
                                 Apple
-                            </th>                          
-                            <th scope="row"
-                                class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
-                                Apple 
-                            </th>                          
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
                         </tr>
-                    
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class="md:hidden border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class="md:hidden border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class="md:hidden border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class="md:hidden border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class="md:hidden border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+
                     </tbody>
                 </table>
-                <table class="w-full text-sm text-left text-gray-300 dark:text-gray-200">
-                    <thead
-                        class=" dark:bg-gray-800 border-b-4 border-[#E76A3E] text-lg text-gray-200 uppercase ">
+                <table class=" w-full text-sm text-left text-gray-300 dark:text-gray-200">
+                    <thead class="dark:bg-gray-800 border-b-4 border-[#E76A3E] text-lg text-gray-200 uppercase ">
                         <tr>
                             <th scope="col" class="py-3 px-6">
 
@@ -437,34 +556,357 @@
                     </thead>
                     <tbody>
                         <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
-                            <th scope="row"
-                                class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
                                 Vitamin A
-                            </th>                          
-                            <th scope="row"
-                                class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
                                 Apple
-                            </th>                          
-                            <th scope="row"
-                                class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
-                                Apple 
-                            </th>                          
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
                         </tr>
                         <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
-                            <th scope="row"
-                                class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
                                 Vitamin A
-                            </th>                          
-                            <th scope="row"
-                                class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
                                 Apple
-                            </th>                          
-                            <th scope="row"
-                                class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
-                                Apple 
-                            </th>                          
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
                         </tr>
-                    
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <div
+                class="grid md:hidden grid-cols-1 md:grid-cols-2 gap-8  overflow-x-auto bg-[#5D5468] px-12 py-6 max-w-5xl mx-auto relative shadow-md sm:rounded-lg">
+                <table class="w-full text-sm text-left text-gray-300 dark:text-gray-200">
+                    <thead class=" dark:bg-gray-800 border-b-4 border-[#E76A3E] text-lg text-gray-200 uppercase ">
+                        <tr>
+                            <th scope="col" class="py-3 px-6">
+
+                            </th>
+                            <th scope="col" class="py-3 px-6">
+                                Quantity
+                            </th>
+                            <th scope="col" class="py-3 px-6">
+                                NRV
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class=" border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class="md:hidden border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class="md:hidden border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class="md:hidden border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class="md:hidden border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+                        <tr class="md:hidden border-b-4 dark:bg-gray-800 dark:border-gray-700">
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Vitamin A
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                            <th scope="row" class="py-2 px-3 font-medium text-lg text-gray-200 whitespace-nowrap">
+                                Apple
+                            </th>
+                        </tr>
+
                     </tbody>
                 </table>
             </div>
@@ -553,39 +995,39 @@
 
             <!-- logofree -->
             <section class="mt-20 max-w-5xl mx-auto">
-                <div class="md:bg-[#563F4A] px-10 py-10">
-                    <div class="grid grid-cols-2  md:grid-cols-6 gap-8 items-center justify-center">
-                        <div>
+                <div class="md:bg-[#563F4A] px-10 py-10 mx-auto">
+                    <div class="grid grid-cols-2  md:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-center">
+                        <div class="mx-auto">
                             <div class="flex items-center">
                                 <img src="./image/gulten.png" alt="" class="bg-[#E76A3E] w-16 h-16 p-2 rounded-full">
                             </div>
                             <p class="text-white text-xl">gulten-tree</p>
                         </div>
-                        <div>
+                        <div class="mx-auto">
                             <div class="flex items-center">
                                 <img src="./image/nut.png" alt="" class="bg-[#E76A3E] w-16 h-16 p-2 rounded-full">
                             </div>
                             <p class="text-white text-xl">Nut-Free</p>
                         </div>
-                        <div>
+                        <div class="mx-auto">
                             <div class="flex items-center">
                                 <img src="./image/dairy.png" alt="" class="bg-[#E76A3E] w-16 h-16 p-2 rounded-full">
                             </div>
                             <p class="text-white text-xl">Dairy-Free</p>
                         </div>
-                        <div>
+                        <div class="mx-auto">
                             <div class="flex items-center">
                                 <img src="./image/egg.png" alt="" class="bg-[#E76A3E] w-16 h-16 p-2 rounded-full">
                             </div>
                             <p class="text-white text-xl">gulten-tree</p>
                         </div>
-                        <div>
+                        <div class="mx-auto">
                             <div class="flex items-center">
                                 <img src="./image/soya.png" alt="" class="w-16 p-2 h-16 bg-[#E76A3E] rounded-full">
                             </div>
                             <p class="text-white text-xl">Soya-Free</p>
                         </div>
-                        <div>
+                        <div class="mx-auto" >
 
                             <div class="flex items-center">
                                 <img src="./image/vee.png" alt="" class="bg-[#E76A3E] w-16 h-16 p-2 rounded-full">
@@ -634,28 +1076,28 @@
         </div>
 
     </footer> -->
-    <footer class="bg-[#FFFFFF] py-10 md:py-20">
-        <div class="flex justify-center items-center">
+    <footer class="bg-[#FFFFFF] py-20 ">
+        <div class="flex items-center justify-center ">
             <div>
-                <img src="./image/onevitlogo.png" alt="" class="mx-auto h-10 md:h-14">
-                <p class="mt-10 text-center text-sm md:text-base">© Copyright OneVit. All Rights Reserved</p>
+                <div>
+                    <img src="./image//onevitlogo.png" alt="">
+                    <p class="mt-20">© Copyright OneVit. All Rights Reserved</p>
+                </div>
+
+
             </div>
         </div>
-        <div class="max-w-5xl mx-auto mt-6 md:mt-10">
-            <div class="flex flex-col md:flex-row gap-8 justify-center">
-                <p class="text-center">
-                    <span class="bg-[#32354E] px-3 py-2 rounded-full text-white">velo</span> info@onevit.co.uk
-                </p>
-                <p class="text-center md:order-3">
-                    <span class="bg-[#32354E] px-3 py-2 rounded-full text-white"><i
-                            class="fa-solid fa-location-dot"></i></span> 236 Gray’s Inn Rd, London, WC1X 8HB
-                </p>
-                <p class="text-center">
-                    <span class="bg-[#32354E] px-3 py-2 rounded-full text-white"><i
-                            class="fa-solid fa-phone"></i></span> info@onevit.co.uk
-                </p>
+        <div class="max-w-5xl mx-auto mt-10">
+            <div class="grid w-fit mx-auto grid-cols-1 md:grid-cols-3 items-center gap-5 justify-center">
+                <p><span class="bg-[#32354E] px-3 py-2 rounded-full text-white">velo</span> info@onevit.co.uk</p>
+                <p><span class="bg-[#32354E] px-3 py-2 rounded-full text-white"><i
+                            class="fa-solid fa-location-dot"></i></span> 236 Gray’s Inn Rd, London, WC1X 8HB</p>
+                <p><span class="bg-[#32354E] px-3 py-2 rounded-full text-white"><i class="fa-solid fa-phone"></i></span>
+                    info@onevit.co.uk</p>
+
             </div>
         </div>
+
     </footer>
 
     <script>
