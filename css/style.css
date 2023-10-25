@@ -1,0 +1,10 @@
+.navBar {
+    background-image: url('../image/header1.png');
+    background-size: cover; /* Adjust this to your preference */
+    background-repeat: no-repeat;
+   
+    
+
+    
+    /* Other background properties can be added here. */
+}
