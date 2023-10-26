@@ -26,3 +26,27 @@ h1, h2, h3 {
     /* Other background properties can be added here. */
 }
 
+.my-element {
+   background-image: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  /* Media query for medium-sized screens and above */
+  @media (min-width: 768px) {
+    .my-element {
+      background-size: contain;
+      
+      background-image: url('../image/header1.png');
+    }
+  }
+
+  .bg-banner {
+    background-image: url('../image/bg1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}

@@ -14,22 +14,24 @@
 
 <body class="bg-[#32354E]">
 
-    <header class="relative min-h-screen bg-cover md:bg-contain bg-no-repeat  obeject-fit-cover"
-        style="background-image: url('./image/header1.png');">
+    <!-- <header class="relative min-h-screen bg-cover md:bg-contain bg-no-repeat  obeject-fit-cover"
+        style="background-image: url('./image/header1.png');"> -->
+    <header class="relative min-h-screen my-element ">
         <div class="max-w-4xl w-full mx-auto">
-            <nav class="text-white flex flex-wrap items-center py-4  bg-cover bg-no-repeat 
+            <nav class="px-5 md:px-0 text-white flex flex-wrap items-center py-4 bg-[#E76A3E]  bg-cover bg-no-repeat 
         bg-center">
                 <div class="flex-1 flex justify-between items-center">
                     <a href="#" class="text-5xl">
-                        One<span>Vit</span>
-                        </Link>
+                       <img src="./image/firstlogo.png" alt="" class="w-[128px] h-[31px] 
+                       md:w-[200px] md:h-[62px] ">
+                    </a>
                 </div>
 
                 <label for="menu-toggle" class="pointer-cursor md:hidden block">
                     <svg class="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                         viewBox="0 0 20 20">
                         <title>menu</title>
-                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                        <path class="text-white" d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
                     </svg>
                 </label>
                 <input class="hidden" type="checkbox" id="menu-toggle" />
@@ -38,12 +40,12 @@
                     <nav>
                         <ul class="md:flex items-center justify-between text-base text-white pt-4 md:pt-0">
                             <li>
-                                <a class="md:p-4 py-3 px-0 block" href="#">
-                                    Home
+                                <a class="md:p-4 text-lg font-medium py-3 px-0 block text-[#32354E] underline underline-offset-4" href="#">
+                                    <span class="text-white ">Home</span>
                                 </a>
                             </li>
                             <li>
-                                <a class="md:p-4 py-3 px-0 block" href="#">
+                                <a class="md:p-4 py-3 text-lg font-medium px-0 block" href="#">
                                     About
                                 </a>
                             </li>
@@ -53,17 +55,17 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#">
+                                <a class="md:p-4 py-3 text-lg font-medium px-0 block md:mb-0 mb-2" href="#">
                                     Buy
                                 </a>
                             </li>
                             <li>
-                                <a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#">
+                                <a class="md:p-4 py-3 text-lg font-medium px-0 block md:mb-0 mb-2" href="#">
                                     Nuitrients
                                 </a>
                             </li>
                             <li>
-                                <a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#">
+                                <a class="md:p-4 py-3 text-lg font-medium px-0 block md:mb-0 mb-2" href="#">
                                     Faq
                                 </a>
                             </li>
@@ -73,37 +75,39 @@
             </nav>
 
 
-           <!-- banner part -->
-            <div class="">
+           
+            <div class="px-5 md:px-0 pt-14">
                 <div class="flex items-center justify-between gap-8">
                     <div class="flex-1">
-                        <h2 class="text-white text-5xl mb-2">One<span class="font-bold">Vite</span></h2>
-                        <h2 class="text-[#E76A3E] text-3xl mb-2">complete</h2>
-                        <h2 class="text-2xl text-white font-bold mb-2">Your daily multivitamin</h2>
-                        <p class="text-sm font-medium text-white mb-2">One daily multivitamin to complete your health
+                       
+                        <img src="./image/firstlogo.png" alt="" class="hidden md:block">
+                        <h2 class="text-[#E76A3E] md:text-[40px] font-bold mt-3 hidden md:block">complete</h2>
+                        <h2 class="md:text-[40px] text-[28px] font-bold text-white">Your daily multivitamin</h2>
+                        <p class="md:text-base text-sm text-white mb-2">One daily multivitamin to complete your health
                             and
                             wellbeing.</p>
-                        <button class="bg-[#E76A3E] text-white px-6 py-1 rounded">Buy now </button>
+                            <button class="bg-[#E76A3E] text-white font-bold px-10 py-2 rounded">Buy now <i class="fa-solid fa-chevron-right"></i></button>
                     </div>
-                    <div class="flex-1 flex justify-end items-center">
-                        <img class="w-full md:w-3/4" src="./image/OneVitv3.png" alt="image">
+                    <div class="flex-1 flex justify-end items-center ">
+                        <img class="md:w-[261px] md:h-[444px]  w-[107px] h-[181px]" src="./image/OneVitv3.png" alt="image">
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="absolute top-1/2 left-0 -translate-x-1/2 -translate-y-1/2">
+        <div class="hidden md:block absolute top-1/2 left-0 -translate-x-1/2 -translate-y-1/2">
             <img src="./image/bgflower.png" alt="">
         </div>
-        <div class="absolute bottom-0 right-0">
+        <div class="hidden md:block absolute bottom-0 right-0">
             <img class="w-[250px]" src="./image/bg3.png" alt="">
         </div>
 
     </header>
+    
 
     <!-- main part -->
     <div class="">
-        <main class="mb-32 mt-28">
+        <main class="mb-32 md:mt-28 mt-10">
             <!-- healthy lfestyle -->
             <!-- <section class="bg-cover bg-no-repeat bg-center" style="background-image: url('./image/bg1.png');">
                 <div class="flex items-center justify-between gap-8 py-16 px-24">
@@ -132,16 +136,20 @@
             </section> -->
 
 
-            <section class="md:bg-cover bg-no-repeat bg-center relative" style="background-image: url('./image/bg1.png');">
-                <div class="flex items-center justify-between gap-8 py-16 md:px-20 lg:px-24 px-8">
+            <section class="bg-banner">
+                <div class="flex items-center justify-between gap-8 py-16 md:px-20 lg:px-32 px-8">
                     <div class="">
                         <h2 class="text-[#E76A3E] text-2xl font-bold mb-2">A healthy lifestyle</h2>
-                        <h2 class="text-4xl text-[#32354E] font-bold mb-2">Being the healthiest you can be</h2>
-                        <p class="text-lg mb-4">OneVit is carefully created with completeness at its core, formulated with 27 essential vitamins and minerals to optimally support your health and wellbeing.</p>
-                        <div class="flex md:flex-row flex-col gap-4 mb-5 text-[#E76A3E]">
-                            <p class="text-sm font-medium flex items-center gap-1"><span class="border-2 rounded-full h-8 w-8 flex items-center justify-center border-[#E76A3E]">V</span> vegetarian</p>
-                            <p class="text-sm font-medium flex items-center gap-1"><span class="border-2 rounded-full h-8 w-8 flex items-center justify-center border-[#E76A3E]">V</span> Gluten free</p>
-                            <p class="text-sm font-medium flex items-center gap-1"><span class="border-2 rounded-full h-8 w-8 flex items-center justify-center border-[#E76A3E]">V</span> Made in Uk</p>
+                        <h2 class=" text-4xl text-[#32354E] font-bold mb-2">Being the healthiest you can be</h2>
+                        <p class=" text-lg mb-4">OneVit is carefully created with completeness at its core, formulated
+                            with 27 essential vitamins and minerals to optimally support your health and wellbeing.</p>
+                        <div class="flex md:flex-row flex-col  gap-4 mb-5 text-[#E76A3E]">
+                            <p class="text-sm font-medium flex items-center  gap-1"><img src="./image/icon1.png" alt="icon1" class=" w-[36px]"> vegetarian
+                            </p>
+                            <p class="text-sm font-medium flex items-center gap-1 -ml-2"><img src="./image/icon2.png" alt="icon2" class=" h-[36px] "> Gluten free
+                            </p>
+                            <p class="text-sm font-medium flex items-center gap-1"><img src="./image/icon3.png" alt="icon3" class=" w-[36px]"> Made in Uk
+                            </p>
                         </div>
                         <button class="bg-[#E76A3E] text-white font-medium px-12 py-2 rounded">Buy now <i class="fa-solid fa-chevron-right"></i></button>
                     </div>
