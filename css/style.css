@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'Azo Sans';
+    src: url('../fonts/AzoSans-Regular.woff2') format('woff2'), /* specify all font file formats you have */
+         url('../fonts/AzoSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Azo Sans', sans-serif;
+}
+
+/* Use it for specific elements like headings or classes */
+h1, h2, h3 {
+    font-family: 'Azo Sans', sans-serif;
+}
+
+
 .navBar {
     background-image: url('../image/header1.png');
     background-size: cover; /* Adjust this to your preference */
